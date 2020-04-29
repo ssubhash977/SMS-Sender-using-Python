@@ -8,10 +8,10 @@ client = Client(account_sid , auth_token)
 
 message = client.messages.create(
 
-									from_ ="<twilio generated mobile number>",
-									body = "Your message",
-									to = "to number"
+				from_ ="<twilio generated mobile number>",
+				body = "Your message",
+				to = "to number"
 
-									 )
+				 )
 
 print(message.sid)
